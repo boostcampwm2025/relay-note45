@@ -258,8 +258,10 @@ AI 상담가와 대화하는 방식이라 부담도 적고, 인증도 위로가 
 
 **수행 사진**
 
-<img width="800" alt="Screenshot 2025-07-25 at 1 34 52 PM" src="https://github.com/user-attachments/assets/b62da7f9-697a-4667-b8ec-34b2898fee4f" />
+<img width="800" alt="수행 미션" src="https://github.com/user-attachments/assets/b62da7f9-697a-4667-b8ec-34b2898fee4f" />
 
+<br />
+<br />
 <br />
 
 > Q1. 해당 퀘스트를 수행하는 데 AI는 어떤 역할이었나요? AI가 없으면 동일한 결과를 얻을 수 없을까요?
