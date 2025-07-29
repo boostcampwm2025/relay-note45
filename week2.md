@@ -161,14 +161,31 @@ AI를 통해 생성된 인위적인 주제가 아닌, 커뮤니티에서 우리�
 
 그동안 많이 지치기도 했고, 많은 분들과 이야기를 하며 T식 위로라는 이야기를 많이 들었습니다. AI와 대화하며 다양한 위로의 방법도 알아보고 싶었고, 저의 감정에 대해서 알아보는 것도 좋을 것 같아서 선택하게 되었습니다.
 
-
 ## 💡week2 릴프 수행 결과 기록
 
 ### 1. S004
+
 #### 미션 수행 날짜: 7/28 (수)
+
 #### 미션 내용
+
 <img width=400 src="https://github-production-user-asset-6210df.s3.amazonaws.com/96765626/471796538-de58d1b1-cb1b-4e4e-af8b-b567ea5705fa.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20250729%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250729T032844Z&X-Amz-Expires=300&X-Amz-Signature=c329e9649fc7b0d6f1589b735c039dd4b8229d9a87bb614098ed9a8968947867&X-Amz-SignedHeaders=host">
 
 제 취미인 요리를 주제로 공감대를 형성할 수 있게 슬랙 `갤러리` 채널에 직접 만든 점심 메뉴와 레시피를 공유하여 다양한 분들과 이야기를 나눴습니다.
+
 #### 느낀점
+
 많은 분들께 아주 맛있는 레시피를 알려드릴 수 있어서 좋았습니다 ㅎㅎ 또 같은 취미를 가진 피어분과도 대화할 수 있어서 좋았습니다.
+
+### 2. J293
+
+####
+
+#### 미션 내용
+
+![릴프1.png](https://raw.githubusercontent.com/JongKyuHong/image/main/릴프1.png)
+![릴프2.png](https://raw.githubusercontent.com/JongKyuHong/image/main/릴프2.png)
+
+#### 느낀점
+
+Gemini에게 요구사항 키워드 리스트를 전달받고, 각 키워드가 실제 개발 흐름에서 정말 필요한지 물어봤을 때, 단순한 코드 작성에 그치지 않고 코드 조작, 모듈 간 상호작용, 확장성까지 고려해 필요성을 설명해주어 학습을 더 수월하게 진행할 수 있었습니다.
