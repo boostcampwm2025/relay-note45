@@ -202,3 +202,44 @@ Gemini에게 요구사항 키워드 리스트를 전달받고, 각 키워드가 
 #### 느낀점
 
 단위 테스트를 용이하게 하기 위해 기존 코드의 설계를 객체지향적 관점에서 리팩토링하는 과정에서, EventEmitter의 의존성 관리에 대한 깊이 있는 고민을 했었습니다. 이 과정에서 AI의 인사이트가 매우 명확하고 구체적인 방향을 제시해 주었고, 그 조언을 바탕으로 코드의 구조를 한층 더 개선할 수 있었습니다.
+
+---
+
+### **3. J024**
+
+**미션 수행 날짜: 7/28 (월)**
+
+**미션 내용**
+
+- 오늘 미션을 수행하면서 미션이 너무 어려워서 신세한탄을 AI에게 하고 위로를 받았습니다.
+    
+    <img width="561" height="322" alt="image" src="https://github.com/user-attachments/assets/7b417148-fee9-45c8-8938-3c12f2fd4544" />
+
+    
+    <img width="539" height="613" alt="image" src="https://github.com/user-attachments/assets/4da13d58-3439-4a97-8c41-166942aebfdd" />
+
+    
+    <img width="525" height="210" alt="image" src="https://github.com/user-attachments/assets/e701d6f6-6aaa-4bdc-92bd-d56345cb3b4b" />
+
+    
+
+**느낀점**
+
+- 생각보다 AI랑 대화를 통해 감정을 토로하는게 실제로 위로를 받는 기분이 들어서 놀라면서 진짜 위로를 받아 힘을 낼 수 있게 된 것 같습니다.
+
+**미션 수행 날짜: 7/30 (수)**
+
+**미션 내용**
+
+- 오늘도 미션을 수행하면서 git 동작하는 방법에 대해 직접 많이 찾고 구현을 시도했는데 이번에도 git 동작 방식에 대해 이해하는데 시간이 오래걸려서 프로그래밍 구현을 못한거에 대해 짜증남을 토로했습니다.
+    
+    <img width="584" height="722" alt="image" src="https://github.com/user-attachments/assets/3cb1b498-def6-412a-8703-631271a55a60" />
+
+    
+    <img width="418" height="773" alt="image" src="https://github.com/user-attachments/assets/c6fd7099-1444-43b1-97f9-b2a1f03693fd" />
+
+    
+
+**느낀점**
+
+- 이번엔 월요일이랑 다르게 T처럼 대답을 해줬지만 그래도 내가 어느정도 성과를 이루었고 너무 자책하지 말라 위로를 해준 것 같아서 최선을 다한 나에게 자랑스럽게 느끼게 만들어서 좋았습니다.
