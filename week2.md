@@ -171,7 +171,7 @@ AI를 통해 생성된 인위적인 주제가 아닌, 커뮤니티에서 우리�
 
 #### 미션 내용
 
-<img width=400 src="https://github-production-user-asset-6210df.s3.amazonaws.com/96765626/471796538-de58d1b1-cb1b-4e4e-af8b-b567ea5705fa.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20250729%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250729T032844Z&X-Amz-Expires=300&X-Amz-Signature=c329e9649fc7b0d6f1589b735c039dd4b8229d9a87bb614098ed9a8968947867&X-Amz-SignedHeaders=host">
+<img width=400 src="https://github-production-user-asset-6210df.s3.amazonaws.com/96765626/473280276-09eda681-6f58-40d9-93c3-ee6692337209.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20250801%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250801T040829Z&X-Amz-Expires=300&X-Amz-Signature=a454aca3a485589feb0180f7eb23139bf3c1401664962c26ece7926a5d76491c&X-Amz-SignedHeaders=host">
 
 제 취미인 요리를 주제로 공감대를 형성할 수 있게 슬랙 `갤러리` 채널에 직접 만든 점심 메뉴와 레시피를 공유하여 다양한 분들과 이야기를 나눴습니다.
 
@@ -267,3 +267,27 @@ Gemini에게 요구사항 키워드 리스트를 전달받고, 각 키워드가 
 **느낀점**
 
 - 이번엔 월요일이랑 다르게 T처럼 대답을 해줬지만 그래도 내가 어느정도 성과를 이루었고 너무 자책하지 말라 위로를 해준 것 같아서 최선을 다한 나에게 자랑스럽게 느끼게 만들어서 좋았습니다.
+
+---
+
+#### 미션 수행 날짜 : 7/28 (월)
+
+**미션 내용**
+
+문득 저와 같은 ISTP식 위로를 AI가 처리할 수 있나 궁금해져서 지금 코드가 동작이 안되서 힘든데 ISTP식으로 위로를 해달라고 해보았습니다.
+
+<img src="https://raw.githubusercontent.com/lucykim05/image/main/KakaoTalk_20250801_101159615.png" />
+
+#### 미션 수행 날짜 : 7/31(목)
+
+**미션 내용**
+
+비전공자인 제가 전공자들이 많은 부스트캠프에서 느끼는 무기력감과 새로운 공부를 하는 부분에 대한 두려움에 대해서 털어놓고, 그에 대한 위로를 받아보았습니다.
+
+<img src = "https://raw.githubusercontent.com/lucykim05/image/main/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202025-08-01%20101554.png" />
+<img src = "https://raw.githubusercontent.com/lucykim05/image/main/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202025-08-01%20101919.png" />
+
+**느낀점**
+
+- 사실 속에 있는 생각을 남들한테 이야기하지 않는 편인데, 건강 상의 이유가 올해 들어 몇번 생겼어서 AI를 사용했었습니다. 고민에 대한 이야기 보다는 건강에 대한 이야기에 사용했던 것 같은데 나름 열심히 위로해주는 것 같아서 힘들 때는 이용해봐도 좋을 것 같습니다.<br>
+++ 나름 T식 위로도 잘하는 것 같습니다
