@@ -210,6 +210,6 @@ graph TD
     class B1a,B1b,B1c,E1a,E2a,E2b,E3a,E3b detail
 ```
 
-3. https://www.mermaidchart.com/에서 mermaid 파일 이미지 생성합니다
+3. https://www.mermaidchart.com/ 에서 mermaid 파일 이미지 생성합니다
 
 <img width="3840" height="1370" alt="diagram" src="https://github.com/user-attachments/assets/177dbdc6-6c81-44f5-ad1d-8c39ae42d61c" />
