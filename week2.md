@@ -187,7 +187,7 @@ AI를 통해 생성된 인위적인 주제가 아닌, 커뮤니티에서 우리�
 
 #### 미션 내용
 
-<img width=400 src="https://github-production-user-asset-6210df.s3.amazonaws.com/96765626/471796538-de58d1b1-cb1b-4e4e-af8b-b567ea5705fa.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20250729%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250729T032844Z&X-Amz-Expires=300&X-Amz-Signature=c329e9649fc7b0d6f1589b735c039dd4b8229d9a87bb614098ed9a8968947867&X-Amz-SignedHeaders=host">
+<img width=600 src="https://github-production-user-asset-6210df.s3.amazonaws.com/96765626/473233228-2d353d47-f5dd-4bb4-a700-60e770a922e3.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20250801%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250801T005237Z&X-Amz-Expires=300&X-Amz-Signature=3a8ff378eade67edddfade13a3ad197df03e4931a7608c866a78272b8a0a71b6&X-Amz-SignedHeaders=host">
 
 AI가 나에 대해 알고 있는 것을 기반해 팩폭을 들을 수 있는 'AI에게 팩폭 당하기' 챌린지를 소개하고 `random` 채널에서 다른 피어분들과 서로 결과를 공유했습니다.
 
