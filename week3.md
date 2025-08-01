@@ -65,3 +65,151 @@
 - 말투를 설정하고 물어보는 것도 좋을 것 같다.
 - **예시를 제공하는 것이 좋은 것 같다.**
     - **선택의 자유를 제공해야한다.**
+
+# 퀘스트 1. 키워드 리스트 → AI로 마인드맵 그리기
+
+### 배경
+
+학습 미션이나 기술 문서를 읽고 나면 중요한 개념이 흩어지기 쉽습니다. 처음부터 개념을 구조적으로 정리하고 시각화하면 전체 흐름을 이해하고 연결 고리를 만드는 데 도움이 됩니다. 이를 위해 AI에게 키워드를 기반으로 마인드맵을 생성하게 하고, 이를 시각적으로 정리해보는 퀘스트를 기획합니다.
+
+### 목표
+
+- 학습 미션 내용을 바탕으로 **핵심 키워드를 추출**
+- AI를 활용해 **계층적 마인드맵 구조로 재구성**
+
+### 예시
+
+1. GPT를 활용해서 학습할 내용 키워드 마인드맵으로 정리합니다.
+
+```bash
+🧠 Git 내부 동작 학습
+│
+├── 📁 파일 시스템과 저장 구조
+│   ├─ 파일 경로와 구조 이해 (.git 디렉토리)
+│   │   ├─ .git/objects/
+│   │   ├─ .git/index
+│   │   └─ .git/logs/
+│   ├─ 파일 해시 (SHA-1 / SHA-256)
+│   └─ 파일 압축과 복원 (zlib)
+
+├── 🧱 Git Object 구조
+│   ├─ blob: 파일 데이터 저장
+│   ├─ tree: 디렉토리 구조 표현
+│   ├─ commit: 스냅샷과 메타데이터
+│   └─ tag: 참조용 객체
+
+├── 🧾 Index 파일 구조
+│   ├─ staging area 역할
+│   ├─ tracked/untracked 파일 구분
+│   └─ add 명령 시 업데이트
+
+├── 📜 Git 명령어 동작 원리
+│   ├─ git init
+│   │   └─ .git 디렉토리 초기화
+│   ├─ git add
+│   │   ├─ blob 생성
+│   │   └─ index 업데이트
+│   ├─ git commit
+│   │   ├─ commit object 생성
+│   │   └─ tree 연결 구조 구성
+│   ├─ git log
+│   │   └─ 커밋 히스토리 순회
+│   └─ git branch / switch
+│       └─ HEAD, refs 관리
+
+├── 🔗 내부 포인터 및 참조
+│   ├─ HEAD
+│   ├─ refs/heads/브랜치명
+│   └─ 부모-자식 커밋 연결
+
+├── 🔍 분석 도구 구현 경험
+│   ├─ Node.js 기반 CLI 제작
+│   ├─ zlib 활용 (압축/해제)
+│   ├─ crypto 모듈로 해시 계산
+│   └─ 이진 파일(index 등) 파싱
+
+└── 🤝 협업 설계 기반 학습
+    ├─ 짝과 함께하는 설계 논의
+    ├─ 구현 이전의 의도 정리
+    └─ 작은 단위로 기능 쪼개기
+
+```
+
+2. v0를 사용하여 GPT에서 가져온 마인드맵 mermaid 파일로 생성.
+
+```bash
+graph TD
+    %% 위쪽 영역
+    B["📁 파일 시스템과<br/>저장 구조"] --- A["🧠 Git 내부 동작 학습"]
+    C["🧱 Git Object<br/>구조"] --- A
+    D["🧾 Index 파일<br/>구조"] --- A
+    F["🔗 내부 포인터<br/>및 참조"] --- A
+    
+    %% 아래쪽 영역
+    A --- E["📜 Git 명령어<br/>동작 원리"]
+    A --- G["🔍 분석 도구<br/>구현 경험"]
+    A --- H["🤝 협업 설계<br/>기반 학습"]
+
+    %% 위쪽 세부 항목들
+    B1[".git 디렉토리<br/>구조"] --- B
+    B2["파일 해시<br/>(SHA-1/256)"] --- B
+    B3["파일 압축<br/>(zlib)"] --- B
+    
+    B1a[".git/objects/"] --- B1
+    B1b[".git/index"] --- B1
+    B1c[".git/logs/"] --- B1
+
+    C1["blob<br/>파일 데이터"] --- C
+    C2["tree<br/>디렉토리 구조"] --- C
+    C3["commit<br/>스냅샷"] --- C
+    C4["tag<br/>참조 객체"] --- C
+
+    D1["staging area<br/>역할"] --- D
+    D2["tracked/<br/>untracked"] --- D
+    D3["add 명령<br/>업데이트"] --- D
+
+    F1["HEAD"] --- F
+    F2["refs/heads/<br/>브랜치명"] --- F
+    F3["부모-자식<br/>커밋 연결"] --- F
+
+    %% 아래쪽 세부 항목들
+    E --- E1["git init"]
+    E --- E2["git add"]
+    E --- E3["git commit"]
+    E --- E4["git log"]
+    E --- E5["git branch"]
+
+    E1 --- E1a[".git 초기화"]
+    E2 --- E2a["blob 생성"]
+    E2 --- E2b["index 업데이트"]
+    E3 --- E3a["commit 생성"]
+    E3 --- E3b["tree 연결"]
+
+    G --- G1["Node.js<br/>CLI 제작"]
+    G --- G2["zlib 활용"]
+    G --- G3["crypto 모듈<br/>해시 계산"]
+    G --- G4["이진 파일<br/>파싱"]
+
+    H --- H1["짝 프로그래밍<br/>설계 논의"]
+    H --- H2["구현 이전<br/>의도 정리"]
+    H --- H3["기능 단위<br/>쪼개기"]
+
+    classDef center fill:#ff6b6b,stroke:#c92a2a,stroke-width:3px,color:#fff
+    classDef topMain fill:#4ecdc4,stroke:#26a69a,stroke-width:2px,color:#fff
+    classDef bottomMain fill:#a29bfe,stroke:#6c5ce7,stroke-width:2px,color:#fff
+    classDef topSub fill:#45b7d1,stroke:#2980b9,stroke-width:2px,color:#fff
+    classDef bottomSub fill:#fd79a8,stroke:#e84393,stroke-width:2px,color:#fff
+    classDef detail fill:#96ceb4,stroke:#52b788,stroke-width:1px
+    classDef leaf fill:#ffeaa7,stroke:#fdcb6e,stroke-width:1px
+
+    class A center
+    class B,C,D,F topMain
+    class E,G,H bottomMain
+    class B1,B2,B3,C1,C2,C3,C4,D1,D2,D3,F1,F2,F3 topSub
+    class E1,E2,E3,E4,E5,G1,G2,G3,G4,H1,H2,H3 bottomSub
+    class B1a,B1b,B1c,E1a,E2a,E2b,E3a,E3b detail
+```
+
+3. https://www.mermaidchart.com/에서 mermaid 파일 이미지 생성합니다
+
+<img width="3840" height="1370" alt="diagram" src="https://github.com/user-attachments/assets/177dbdc6-6c81-44f5-ad1d-8c39ae42d61c" />
