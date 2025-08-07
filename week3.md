@@ -359,7 +359,7 @@ graph TD
     </details>
     <details>
         <summary>Day18-19</summary>
-        <img width="2715" height="3847" alt="Mermaid Chart" src="https://github.com/user-attachments/assets/87b949cf-31d5-4ccf-aeb8-1504b62882ed" />
+        <img width="3840" height="2163" alt="Mermaid Chart" src="https://github.com/user-attachments/assets/6f36491c-94d3-49c5-b946-ee364a8f7cd2" />
     </details>
 
 **느낀점**: 이번 릴레이 프로젝트를 하면서 느낀 점은 어떤 방식으로든 자신이 학습한 내용, 한 일들을 큰 그림을 그리고 돌이켜보는 과정이 매우 중요하다는 것이었습니다. 미션을 수행하기 위해 필요한 배경지식들을 공부하면서 어떤 것들은 기존에 어느 정도 알고있었던 것들이기도 했고 어떤 것들은 새로운 내용이기도 했습니다. 이미 알고 있는 지식들도 전체적인 그림을 그려보면서 전체적인 구조가 더 잘 정리된 것 같고 개념들 간의 연결 관계 등이 명확하게 이해된 것 같습니다. 그리고 새롭게 배운 지식들도 빠르게 필요한 부분만 학습하면서 지식이 파편화되어있다고 느꼈는데 마인드맵을 생성하고 이를 자세히 보면서 내용에 대한 이해에 큰 도움이 되었습니다.
